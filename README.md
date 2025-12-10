@@ -1,4 +1,4 @@
-## 🚀 Getting Started
+## General Overview
 
 ### 1. Frontend
 
@@ -25,26 +25,26 @@ python app.py
 
 ---
 
-## 🌍 How It Works
+## How It Works
 
 1. User signs up or logs in via **Firebase Auth**.  
 2. React frontend tracks hand gestures in real time using **MediaPipe**.  
-3. Fruits appear with math answers — slice the correct ones to earn points.  
+3. Fruits appear with math answers. You must slice the correct ones with your finger to earn points.  
 4. Game progress and scores are sent to **Flask/FastAPI**, validated, and stored in **MongoDB**.  
 5. Leaderboard and achievements are fetched and displayed dynamically.  
 
 ---
 
-## 🎯 Why It’s Cool
+## Why It’s Cool
 
-- **Hands-Free Gameplay**: Minimal hardware needed — just a webcam.  
-- **ML-Powered Interaction**: AI tracks gestures in real time for immersive gameplay.  
-- **Gamified Learning**: Math practice feels like a fast-paced arcade game.  
-- **Full-Stack Integration**: React frontend ↔ Flask backend ↔ MongoDB storage ↔ Firebase Auth.  
+- **Hands-Free Gameplay**: All you need is a webcam! 
+- **ML-Powered Interaction**: AI tracks gestures in real time for immersive gameplay  
+- **Gamified Learning**: Math practice feels like a fast-paced arcade game, which is what we desired  
+- **Full-Stack Integration**: React frontend ↔ Flask backend ↔ MongoDB storage ↔ Firebase Auth  
 
 ---
 
-## 📚 Next Steps
+## Possible Future Improvements
 
 - Add fractions, algebra, and geometry quizzes.  
 - Real-time multiplayer mode.  
